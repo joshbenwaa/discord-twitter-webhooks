@@ -25,7 +25,7 @@ for hook in os.environ:
 print(f"webhooks={webhooks}")
 
 # Log severity. Can be CRITICAL, ERROR, WARNING, INFO or DEBUG.
-log_level: str = os.getenv("LOG_LEVEL", default="INFO")
+log_level: str = os.getenv("LOG_LEVEL", default="DEBUG")
 
 # Where https://github.com/TheLovinator1/twitter-image-collage-maker is running.
 # You can run your own version or use the default https://twitter.lovinator.space/
